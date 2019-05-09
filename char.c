@@ -6,8 +6,9 @@ int main (void)
 {
     string name = "Larry";
 
-    for( int i = 0; i < strlen(name); i++) {
-        printf("%c\n", name[i]);
+    for( int i = 0, length = strlen(name); i < length ; i++) {
+        //printf("%c\n", name[i]);
+        printf("letter:\t%ilength:\t%i\n", i, length);
     }
 
 }
