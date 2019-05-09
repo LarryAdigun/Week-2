@@ -8,7 +8,7 @@ int main (void)
 
     for( int i = 0, length = strlen(name); i < length ; i++) {
         //printf("%c\n", name[i]);
-        printf("letter:\t%ilength:\t%i\n", i, length);
+        printf("letter: \t%i length: \t%i\n", i, length);
     }
 
 }
